@@ -51,9 +51,11 @@ print("│  5  │ GET TOKEN                          │ ONLINE  │  [1.0]  �
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print("│  6  │ GET COOKIE PRO5                    │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  7  │ ENC PYTHON                         │ ONLINE  │  [1.0]  │")
+print("│  7  │ GET TOKEN OR COOKIE FACEBOOK       │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  8  │ QUAY LẠI                           │   =.=   │   NEXT  │")
+print("│  8  │ ENC PYTHON                         │ ONLINE  │  [1.0]  │")
+print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print("│  9  │ QUAY LẠI                           │   =.=   │   NEXT  │")
 print("└─────┴────────────────────────────────────┴─────────┴─────────┘\n")
 chon = input("Nhập Lựa Chọn: ")
 os.system("cls" if os.name == "nt" else "clear")
@@ -71,8 +73,10 @@ try:
         elif chon == '6':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/getcookiepro5/main/getcookiepro5.py').text
         elif chon == '7':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/gettokenorcookie/main/gettokenorcookie.py').text
         elif chon == '8':
+                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.md').text
+        elif chon == '9':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
