@@ -75,7 +75,7 @@ try:
         elif chon == '7':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gettokenorcookie/main/gettokenorcookie.py').text
         elif chon == '8':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.py').text
         elif chon == '9':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
