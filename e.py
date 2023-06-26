@@ -64,15 +64,15 @@ chon = input("Nhập Lựa Chọn: ")
 os.system("cls" if os.name == "nt" else "clear")
 try:
         if chon == '1':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/getid/main/getid.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/getid/main/getid.py').text
         elif chon == '2':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/spamsms/main/spamsms.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/spamsms/main/spamsms.py').text
         elif chon == '3':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/tokenpr5/main/tokenpr5.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/tokenpr5/main/tokenpr5.py').text
         elif chon == '4':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/add/main/add.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/add/main/add.py').text
         elif chon == '5':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/gettoken/main/gettoken.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/gettoken/main/gettoken.py').text
         elif chon == '6':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/getcookiepro5/main/getcookiepro5.py').text
         elif chon == '7':
