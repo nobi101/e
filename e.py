@@ -46,19 +46,21 @@ print("│  1  │ GET ID FACEBOOK                    │ ONLINE  │  [1.0]  �
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print("│  2  │ SPAM SMS                           │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  3  │ GET TOKEN PRO5                     │ ONLINE  │  [1.0]  │")
+print("│  3  │ SPAM SMS & CALL                    │ ONLINE  │  [2.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  4  │ ADD FRIENDS                        │ ONLINE  │  [1.0]  │")
+print("│  4  │ GET TOKEN PRO5                     │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  5  │ GET TOKEN                          │ ONLINE  │  [1.0]  │")
+print("│  5  │ ADD FRIENDS                        │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  6  │ GET COOKIE PRO5                    │ ONLINE  │  [1.0]  │")
+print("│  6  │ GET TOKEN                          │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  7  │ GET TOKEN OR COOKIE FACEBOOK       │ ONLINE  │  [1.0]  │")
+print("│  7  │ GET COOKIE PRO5                    │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  8  │ ENC PYTHON                         │ ONLINE  │  [1.0]  │")
+print("│  8  │ GET TOKEN OR COOKIE FACEBOOK       │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  9  │ QUAY LẠI                           │   =.=   │   NEXT  │")
+print("│  9  │ ENC PYTHON                         │ ONLINE  │  [1.0]  │")
+print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print("│  10  │ QUAY LẠI                           │   =.=   │   NEXT  │")
 print("└─────┴────────────────────────────────────┴─────────┴─────────┘\n")
 chon = input("Nhập Lựa Chọn: ")
 os.system("cls" if os.name == "nt" else "clear")
@@ -68,18 +70,20 @@ try:
         elif chon == '2':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/spamsms/main/spamsms.py').text
         elif chon == '3':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/tokenpr5/main/tokenpr5.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/spamcall/main/spamsms.py').text
         elif chon == '4':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/add/main/add.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/tokenpr5/main/tokenpr5.py').text
         elif chon == '5':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/gettoken/main/gettoken.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/add/main/add.py').text
         elif chon == '6':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/getcookiepro5/main/getcookiepro5.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/gettoken/main/gettoken.py').text
         elif chon == '7':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/gettokenorcookie/main/gettokenorcookie.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/getcookiepro5/main/getcookiepro5.py').text
         elif chon == '8':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/gettokenorcookie/main/gettokenorcookie.py').text
         elif chon == '9':
+                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.py').text
+        elif chon == '10':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
