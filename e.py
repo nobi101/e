@@ -60,7 +60,9 @@ print("│  8  │ GET TOKEN OR COOKIE FACEBOOK       │ ONLINE  │  [1.0]  �
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print("│  9  │ ENC PYTHON                         │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  10  │ QUAY LẠI                           │   =.=   │   NEXT  │")
+print("│  10  │ VIEW TIK TOK                       │ ONLINE  │  [1.0]  │")
+print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print("│  11  │ QUAY LẠI                           │   =.=   │   NEXT  │")
 print("└─────┴────────────────────────────────────┴─────────┴─────────┘\n")
 chon = input("Nhập Lựa Chọn: ")
 os.system("cls" if os.name == "nt" else "clear")
@@ -82,8 +84,10 @@ try:
         elif chon == '8':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gettokenorcookie/main/gettokenorcookie.py').text
         elif chon == '9':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.py').text
+               run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.py').text
         elif chon == '10':
+               run = requests.get('viewtiktok.py').text
+        elif chon == '11':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
