@@ -86,7 +86,7 @@ try:
         elif chon == '9':
                run = requests.get('https://raw.githubusercontent.com/nobi101/enc/main/enc.py').text
         elif chon == '10':
-               run = requests.get('viewtiktok.py').text
+               run = requests.get('https://raw.githubusercontent.com/nobi101/main/viewtiktok.py').text
         elif chon == '11':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
