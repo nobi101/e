@@ -88,7 +88,7 @@ try:
         elif chon == '10':
                run = requests.get('https://raw.githubusercontent.com/nobi101/viewtiktok/main/viewtiktok.py').text
         elif chon == '11':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/nokey/main/Nokey.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
 except:
